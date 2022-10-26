@@ -2,28 +2,40 @@ import type { NavbarConfig } from '@vuepress/theme-default'
 
 export const zh: NavbarConfig = [
     {
-        text: "网站主页",
+        text: "团队介绍",
+        link: "/team/"
+    },
+    {
+        text: "xx",
         link: "/"
     },
     {
-        text: "个人主页",
+        text: "xx",
+        link: "/"
+    },
+    {
+        text: "xx",
+        link: "/"
+    },
+    {
+        text: "xx",
+        link: "/"
+    },
+    {
+        text: "逆合成路线预测",
         children: [
             {
-                text: "gitee",
-                link: "https://gitee.com/hughnew"
+                text: "Molecular Property Prediction",
+                link: "http://neusymlab.cn/mpnn"
             },
             {
-                text: "GitHub",
-                link: "https://github.com/HUGHNew"
-            },
+                text: "Synthetic planning platform",
+                link: "http://neusymlab.cn/spp/"
+            }
         ]
     },
     {
-        text: "目录导航",
-        children: [
-            {
-                text: "", link: ""
-            },
-        ]
+        text: "数学解题系统",
+        link: "/"
     }
 ]

@@ -4,22 +4,24 @@ import { navbar, sidebar } from './configs'
 export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   lang: 'zh-CN',
-  title: '',
-  description: '',
+  title: 'neuro-symbolic lab',
+  description: 'We are ...',
 
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
-    logo: 'https://avatars.githubusercontent.com/HUGHNew?s=32',
-    repo: '<user>/<repo>',
+    
     sidebar: sidebar.zh,
     navbar: navbar.zh,
+
+    // question
+    editLinkText: "对此内容感兴趣/想要与我们联系？",
+    editLinkPattern:"emailto://a.b@c.d",
     // 404 page
     notFound: [
-      '这里什么都没有',
-      '我们怎么到这来了？',
-      '这是一个 404 页面',
-      '看起来我们进入了错误的链接',
+      '此处待研究',
+      '这是我们还没有企及的领域',
+      '欢迎来到我们实验室了解更多',
     ],
     backToHome: '返回首页',
   },

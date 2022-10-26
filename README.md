@@ -1,2 +1,1 @@
-# Vuepress-Template
- Template for static web pages by vuepress
+# neuro-symbols lab
