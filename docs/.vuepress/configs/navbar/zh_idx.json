@@ -21,16 +21,7 @@
     },
     {
         "text": "逆合成路线预测",
-        "children": [
-            {
-                "text": "Molecular Property Prediction",
-                "link": "http://neusymlab.cn/mpnn"
-            },
-            {
-                "text": "Synthetic planning platform",
-                "link": "http://neusymlab.cn/spp/"
-            }
-        ]
+        "link": "http://neusymlab.cn/mpnn"
     },
     {
         "text": "数学解题系统",
